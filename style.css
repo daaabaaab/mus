@@ -1,0 +1,13 @@
+.btn-danger:hover{
+    background-color: cornflowerblue;
+}
+
+canvas{
+    animation-name: movement;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes movement{
+ from{box-shadow: 3px 4px 7px purple;}
+ to{box-shadow: 4px 6px 9px red;}   
+}
